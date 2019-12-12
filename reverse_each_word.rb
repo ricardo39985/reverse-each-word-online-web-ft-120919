@@ -1,4 +1,3 @@
 def reverse_each_word(input)
-  split_setence= input.split(" ")
-  pp input
+  input.split.map{|word| word.reverse}.join(" ")
 end
